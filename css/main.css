@@ -22,7 +22,26 @@ body {
   margin: 0;
 }
 
+figure {
+  margin: 0;
+}
+
 .img-flex {
   display: block;
   width: 100%;
+}
+
+.burger-img {
+  position: relative;
+}
+
+.burger-cap {
+  position: absolute;
+  padding: 1rem;
+  bottom: .5rem;
+  left: .5em;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  max-width: 15em;
+  border-radius: 7.5px;
 }
